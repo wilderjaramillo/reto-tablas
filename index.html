@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=hed, initial-scale=1.0">
+    <title>Reto Tablas</title>
+</head>
+<style>
+    header{
+        background-color: aqua;
+        width: 1000px;
+        height: 150px;
+    }
+    nav{
+        background-color: rgb(230, 223, 236);       
+        width: 1000px;
+        height: 50px;
+    }
+    main{
+        background-color: blue;
+        width: 1000px;
+        height: 850px;
+
+
+    }
+    a{
+        margin-right: 50px;
+    }
+    #SEC1{
+        background-color: rgb(20, 109, 12);
+        width: 1000px;
+        height: 250px;
+    }
+    #SEC2{
+        background-color: gray;
+        width: 1000px;
+        height: 300px;
+    } 
+    #SEC3{
+        background-color: rgb(77, 77, 69);
+        width: 1000px;
+        height: 300px;
+    } 
+    .titulos{
+        color: rgb(75, 4, 4);
+        margin-top: 0;
+        margin-left: 10px;
+     }
+     table{
+        width: 60%;
+        border-collapse: collapse;
+        text-align: center;
+     }
+     th,td,tr{
+        border: 2px solid rgb(44, 25, 25);
+        color: yellow;
+        
+     }  
+       
+    
+    footer{
+        width: 1000px;
+        height: 50px;
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+        
+    }
+
+
+
+</style>
+<body>
+    <header id="arriba">
+        <h1>HOJA DE VIDA</h1>
+        <hr>
+    </header>
+    
+    <nav>
+        <center>
+        <a href="#">Inicio</a>
+        <a href="#SEC1">Datos Personales</a>
+        <a href="#SEC2">Estudios</a>
+        <a href="#SEC3">Referencias</a>
+        </center>    
+
+    </nav>
+    <main>
+      
+      <section id="SEC1">
+        <h2 class="titulos">Datos Personales</h2>  
+        <center>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+            </tr>
+            <tr>
+                <td>Wilder </td>
+                <td>Jaramillo Zuleta</td>
+                <td>3146781373</td>
+                <td>Carrera 85a # 47dd 25</td>
+
+
+
+            </tr>
+
+        </table>    
+        </center>
+        <a href="#arriba">Subir</a>
+     
+    
+    
+    
+    </section>
+    <section id="SEC2">
+        <h2 class="titulos">Estudios</h2>  
+        <center>
+        <table>
+            <tr>
+                <th>Institución</th>
+                <th>Año</th>
+                <th>Titulo obtenido</th>
+            </tr>
+            <tr>
+                <td>I.E. Pedro Nel Ospina </td>
+                <td>2000</td>
+                <td>Bachiller</td>
+            </tr>  
+            <tr>
+                <td>CESDE</td>
+                <td>2023</td>
+                <td>Técnico en desarrollo de software</td>
+            </tr>  
+        </table>    
+        </center>
+        <a href="#arriba">Subir</a>
+     
+     </section>
+     <section id="SEC3">
+      <h2 class="titulos">Referencias</h2>  
+        <center>
+        <table>
+          <tr>
+              <th>Nombre</th>
+              <th>Parentesco</th>
+              <th>Teléfono</th>
+              <th>Dirección</th>
+          </tr>
+          <tr>
+              <td>Biviana Morales </td>
+              <td>Esposa</td>
+              <td>3146594815</td>
+              <td>Carrera 85a # 47dd 25</td>
+          </tr>
+          <tr>
+               <td>Amanda Zuleta </td>
+               <td>Madre</td>
+               <td>6045827551</td>
+               <td>Calle 83 # 67a 67</td>
+          </tr>
+
+      </table>    
+      </center>
+      <a href="#arriba">Subir</a>
+    </section>
+
+
+    </main>
+    <footer>Derechos Reservados 2023</footer>
+    
+</body>
+</html>
